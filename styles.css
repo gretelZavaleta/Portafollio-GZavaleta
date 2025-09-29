@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Dancing+Script:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background: rgb(31, 30, 30);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    border: solid 5px white;
+    margin: 50px;
+    padding: 50px;
+    /* Espaciado interno */
+    background: rgb(81, 12, 130);
+    padding: 20px;
+}
+h1, h2 {
+    font-family: 'Bitcount Prop Single Ink', sans-serif;
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    font-family: 'Exo2', sans-serif;
+    line-height: 1.6;
+}
