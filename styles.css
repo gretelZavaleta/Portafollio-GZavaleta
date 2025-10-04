@@ -27,3 +27,15 @@ p {
     font-family: 'Exo2', sans-serif;
     line-height: 1.6;
 }
+
+#foto-perfil {
+   border: solid 5px rgb(152, 32, 163);
+   border-radius: 16px;
+
+}
+article{
+    border: solid 5px rgb(152, 32, 163);
+    width: 30%;
+    float: left;
+
+}
