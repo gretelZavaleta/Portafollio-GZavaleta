@@ -14,7 +14,7 @@
             Portafolio
         </h1>
         <h4Gretel Dairen Zavaleta Moctezuma</h4>
-        <p>Desarrolladora FullStack | Estudiante de Ingenieria en UT Cancún</p>
+            <p>Desarrolladora FullStack | Estudiante de Ingenieria en UT Cancún</p>
     </header>
     <!-- Navegación -->
     <nav>
@@ -134,10 +134,50 @@
                     <label>Mensaje</label>
                     <textarea placeholder="Escribe tu mensaje aqui..."></textarea>
                 </div>
+                <!-- Error en el boton de envio corregido -->
+                <!-- Clase del 20/10/2025 -->
+
                 <div class="contacto-btn">
                     <button="submit"value="Enviar"></button>
                 </div>
+                <div class="campos">
+                    <label>Motivo</label>
+                    <select>
+                        <option>Cotización</option>
+                        <option>Soporte Técnico</option>
+                        <option>Practicas profesionales</option>
+                        <option>Otro</option>
+                    </select>
+                </div>
+                <div class="campos">
+                    <label>fecha evento</label>
+                    <input type="date" placeholder="aaaa-mm-dd" />
+                </div>
+                <div class="campos">
+                    <label>Modo de contacto</label>
+                    <input type="checkbox" name="canal" class="opciones">Whatsapp
+                    <input type="checkbox" name="canal" class="opciones">Correo Electronico
+                </div>
+                <div class="campos">
+                    <label>¿Es cliente?</label>
+                    <input type="radio" name="cliente" class="opciones">Si
+                    <input type="radio" name="cliente" class="opciones">No
+                </div>
+                <div class="campos">
+                    <label>Número de colaboradores</label>
+                    <input type="number" />
+                </div>
+                <div class="campos">
+                    <label>Enviar requerimientos</label>
+                    <input type="file" name="foto" />
+                </div>
+
+
+                <div class="campos">
+                    <button type="submit">Enviar</button>
+                </div>
             </form>
+
         </section>
 
     </main>

@@ -49,7 +49,7 @@ progress {
 
 }
 
-#ontacto-btn{
+#contacto-btn{
     background: rgb(81, 12, 130);
     color: white;
     border: solid 2px white;
@@ -70,4 +70,18 @@ progress {
 #campos{
     clear: both;
     padding-top: 20px;
+}
+.campos {
+    margin-bottom: 15px;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgb(81, 12, 130);
+    color: white;
+    border-top: solid 5px white;
+    margin-top: 50px;
 }
