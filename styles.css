@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Dancing+Script:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Dancing+Script:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+
 body {
     background: rgb(31, 30, 30);
     color: white;
@@ -10,17 +11,16 @@ body {
 
 header {
     text-align: center;
+    background: linear-gradient(145deg, #450c6e, #9b1aa6);
     border: solid 5px white;
     margin: 50px;
     padding: 50px;
-    /* Espaciado interno */
-    background: rgb(81, 12, 130);
-    padding: 20px;
+    border-radius: 20px;
 }
 h1, h2 {
-    font-family: 'Bitcount Prop Single Ink', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 3em;
-    margin: 0;
+    margin: 10 px 0;
 }
 
 p {
@@ -31,7 +31,25 @@ p {
 #foto-perfil {
    border: solid 5px rgb(152, 32, 163);
    border-radius: 16px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px auto;
 
+}
+
+nav {
+    background: rgb(81, 12, 130);
+    padding: 10px;
+    text-align: center;
+    border: solid 5px white;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
 }
 article{
     border: solid 5px rgb(152, 32, 163);

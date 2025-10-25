@@ -4,35 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Potafolio | GretelZM</title>
+    <title>Potafolio - Gretel Zavaleta</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <h1>
-            Portafolio
-        </h1>
-        <h4Gretel Dairen Zavaleta Moctezuma</h4>
-            <p>Desarrolladora FullStack | Estudiante de Ingenieria en UT Cancún</p>
+    <header id="inicio">
+        <h1>Portafolio de Gretel Zavaleta</h1>
+        <h4>Gretel Dairen Zavaleta Moctezuma</h4>
+        <p>Desarrolladora de Software | Estudiante de Ingenieria en UT Cancún</p>
     </header>
+
     <!-- Navegación -->
     <nav>
-        <a href #>Inicio</a> <!-- Enlace a la página de inicio -->
-        <a href #>Sobre mí</a> <!-- Enlace a la sección sobre mí -->
-        <a href #>Proyectos</a> <!-- Enlace a la sección de proyectos -->
-        <a href #>Redes Sociales</a> <!-- Enlace a la sección de redes sociales -->
+        <!--enlaces-->
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contacto">Contactame</a>
+
     </nav>
     <main>
-        <section>
+
+        <!--Sección Sobre Mi-->
+        <section id="sobre-mi">
             <h2>Sobre mí</h2>
-            <p>Hola, soy Gretel Dairen Zavaleta Moctezuma, una desarrolladora <mark>FullStack</mark> apasionada por la
-                tecnología y
-                el desarrollo web. Actualmente estudio una Licenciatura en Ingeniería en Tecnologias de la Información e
-                Inovación Digital área Desarrollo y Gestión de Software Mutiplataforma en la Universidad Tecnológica de
-                Cancún. Me encanta
-                aprender nuevas tecnologías y mejorar mis habilidades en programación. Me especializo en
-                <strong>Tecnologias de la Información</strong>
+            <p>
+                Soy estudiante de <strong>Tecnologías de la Información e Innovación Digital</strong> en la Universidad
+                Tecnológica de
+                Cancún. Me apasiona el desarrollo web y la creación de soluciones tecnológicas innovadoras. Me apasiona
+                crear proyectos con impacto social y soluciones tecnológicas que mejoren la vida de las personas.
             </p>
             <mark>Habilidades:</mark>
             <p>Mi frase favorita es: <small><em>Primero resuelvo</em>, despues codifico</small></p>
@@ -41,7 +43,9 @@
                 <h3>Actualmente estudio la carrera de Tecnologias de la Información e Innovación Digital</h3>
             </aside>
         </section>
-        <section>
+
+        <!--Sección de  Proyectos-->
+        <section id="proyectos">
             <h2>Proyectos</h2>
             <article>
                 <h3>Proyecto Integrador</h3>
@@ -90,37 +94,21 @@
 
         </section>
 
-        <div>
-            <label>HTML</label>
-            <progress value="70" max="100">80%</progress>
-        </div>
+        <!--Sección de Habilidades-->
+        <section id="habilidades">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills">
+                <div><label>HTML</label><progress value="80" max="100">80%</progress></div>
+                <div><label>CSS</label><progress value="70" max="100">70%</progress></div>
+                <div><label>JavaScript</label><progress value="60" max="100">60%</progress></div>
+                <div><label>.NET</label><progress value="50" max="100">50%</progress></div>
+            </div>
+        </section>
 
-        <div>
-            <label>CSS</label>
-            <progress value="70" max="100">70%</progress>
-        </div>
-        <div>
-            <label>JavaScript</label>
-            <progress value="60" max="100">60%</progress>
-        </div>
-        <div>
-            <label>React</label>
-            <progress value="50" max="100">50%</progress>
-        </div>
-        <div>
-            <label>Node.js</label>
-            <progress value="10" max="100">10%</progress>
-        </div>
-        <div>
-            <label>SQL</label>
-            <progress value="60" max="100">60%</progress>
-        </div>
-        <div>
-            <label>Git</label>
-            <progress value="50" max="100">50%</progress>
-        </div>
+
+        <!--Sección de Contacto-->
         <section id="contacto">
-            <h2>Contactame</h2>
+            <h2>Contáctame</h2>
             <form action="">
                 <div class="campos">
                     <label> Nombre:</label>
@@ -181,6 +169,8 @@
         </section>
 
     </main>
+
+    <!--Footer-->
     <footer>
         <p>Todos los derechos reservados &copy; 2025</p>
         <address>Cancún Quintana Roo</address>
